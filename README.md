@@ -1,2 +1,1469 @@
-# LuVenXe-Store
-#1 Supplier Robux Aman Cepat Trusted
+<!DOCTYPE html>
+<html lang="id" class="dark">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>LVX STORE - Top Up Robux Resmi & Terpercaya</title>
+    <!-- Font Awesome Icons -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" rel="stylesheet">
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@600;700;800;900&family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            darkMode: 'class',
+            theme: {
+                extend: {
+                    colors: {
+                        cyberNav: '#080d1a',
+                        cyberBg: '#040711',
+                        cardBg: 'rgba(11, 18, 38, 0.85)',
+                        neonCyan: '#00f0ff',
+                        neonPurple: '#8a2be2',
+                        neonGold: '#ffd700',
+                        neonGreen: '#00ff88',
+                        neonPink: '#ff007f'
+                    },
+                    fontFamily: {
+                        display: ['Orbitron', 'sans-serif'],
+                        body: ['Plus Jakarta Sans', 'sans-serif'],
+                    },
+                    boxShadow: {
+                        'neon-cyan': '0 0 20px rgba(0, 240, 255, 0.3)',
+                        'neon-gold': '0 0 20px rgba(255, 215, 0, 0.3)',
+                        'neon-purple': '0 0 20px rgba(138, 43, 226, 0.3)',
+                    }
+                }
+            }
+        }
+    </script>
+    <style>
+        * {
+            box-sizing: border-box;
+            -webkit-tap-highlight-color: transparent;
+        }
+
+        body {
+            font-family: 'Plus Jakarta Sans', sans-serif;
+            background-color: #040711;
+            color: #f3f4f6;
+            background-image: 
+                radial-gradient(circle at 50% 0%, rgba(138, 43, 226, 0.18) 0%, transparent 50%),
+                radial-gradient(circle at 85% 30%, rgba(0, 240, 255, 0.10) 0%, transparent 40%),
+                linear-gradient(to bottom, #040711, #080f24);
+            background-attachment: fixed;
+            min-height: 100vh;
+            overflow-x: hidden;
+        }
+
+        .font-display { font-family: 'Orbitron', sans-serif; }
+
+        .glass-panel {
+            background: rgba(11, 18, 38, 0.82);
+            backdrop-filter: blur(16px);
+            -webkit-backdrop-filter: blur(16px);
+            border: 1px solid rgba(0, 240, 255, 0.2);
+        }
+
+        .glass-card {
+            background: linear-gradient(135deg, rgba(15, 25, 52, 0.85), rgba(7, 12, 26, 0.95));
+            backdrop-filter: blur(12px);
+            border: 1px solid rgba(0, 240, 255, 0.15);
+            transition: all 0.25s cubic-bezier(0.4, 0, 0.2, 1);
+        }
+        
+        @media (min-width: 768px) {
+            .glass-card:hover {
+                border-color: rgba(0, 240, 255, 0.6);
+                transform: translateY(-4px);
+                box-shadow: 0 12px 25px -8px rgba(0, 240, 255, 0.3);
+            }
+        }
+
+        .glow-text-gold {
+            text-shadow: 0 0 10px rgba(255, 215, 0, 0.6), 0 0 20px rgba(255, 215, 0, 0.3);
+        }
+        .glow-text-cyan {
+            text-shadow: 0 0 10px rgba(0, 240, 255, 0.6), 0 0 20px rgba(0, 240, 255, 0.3);
+        }
+
+        ::-webkit-scrollbar { width: 6px; height: 6px; }
+        ::-webkit-scrollbar-track { background: #040711; }
+        ::-webkit-scrollbar-thumb { background: #00f0ff; border-radius: 4px; }
+        ::-webkit-scrollbar-thumb:hover { background: #8a2be2; }
+
+        .modal-backdrop {
+            background-color: rgba(2, 4, 12, 0.90);
+            backdrop-filter: blur(12px);
+            -webkit-backdrop-filter: blur(12px);
+        }
+
+        .carousel-slide {
+            display: none;
+            opacity: 0;
+            transition: opacity 0.5s ease-in-out;
+        }
+        .carousel-slide.active {
+            display: flex;
+            opacity: 1;
+        }
+
+        .banner-img-fit {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            object-position: center;
+        }
+    </style>
+</head>
+<body class="flex flex-col min-h-screen selection:bg-neonCyan selection:text-black">
+
+    <nav class="sticky top-0 z-40 glass-panel border-b border-neonCyan/20">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex items-center justify-between h-16 sm:h-20">
+                
+                <!-- BRAND LOGO -->
+                <div class="flex items-center gap-2.5 sm:gap-3 cursor-pointer group" onclick="switchTab('shop')">
+                    <div class="relative w-10 h-10 sm:w-12 sm:h-12 rounded-xl sm:rounded-2xl bg-gradient-to-tr from-neonGold via-neonPurple to-neonCyan p-0.5 shadow-neon-gold flex-shrink-0">
+                        <div class="w-full h-full bg-cyberNav rounded-[10px] sm:rounded-[14px] flex items-center justify-center font-display font-black text-xl sm:text-2xl text-neonGold group-hover:scale-105 transition">
+                            LVX
+                        </div>
+                    </div>
+                    <div>
+                        <span class="font-display font-black text-xl sm:text-2xl tracking-wider text-white block glow-text-gold">
+                            LVX<span class="text-neonCyan">STORE</span>
+                        </span>
+                        <span class="text-[9px] sm:text-[10px] font-bold tracking-widest text-neonCyan block -mt-1 uppercase">Top Up Platform Official</span>
+                    </div>
+                </div>
+
+                <!-- DESKTOP TABS -->
+                <div class="hidden lg:flex items-center space-x-3 bg-cyberBg/90 p-1.5 rounded-2xl border border-gray-800">
+                    <button id="nav-btn-shop" onclick="switchTab('shop')" class="px-5 py-2.5 rounded-xl font-bold text-xs uppercase tracking-wider transition-all duration-300 bg-gradient-to-r from-neonGold to-amber-500 text-black shadow-neon-gold">
+                        <i class="fa-solid fa-store mr-2"></i> Katalog Produk
+                    </button>
+                    <button id="nav-btn-orders" onclick="switchTab('orders')" class="px-5 py-2.5 rounded-xl font-bold text-xs uppercase tracking-wider text-gray-300 hover:text-white hover:bg-gray-800/60 transition-all duration-300 relative">
+                        <i class="fa-solid fa-receipt mr-2"></i> Lacak Status
+                        <span id="user-order-badge" class="ml-2 bg-neonPink text-white text-[10px] px-2 py-0.5 rounded-full hidden">0</span>
+                    </button>
+                </div>
+
+                <!-- USER AUTH BUTTON & DASHBOARD ACTION -->
+                <div class="flex items-center gap-2">
+                    <div id="auth-header-area">
+                        <!-- Dynamic Auth State rendered by JS -->
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- MOBILE NAVIGATION TABS -->
+        <div class="lg:hidden flex border-t border-gray-800/80 bg-cyberNav/95 px-2 py-2 justify-around text-center">
+            <button id="mobile-nav-shop" onclick="switchTab('shop')" class="flex-1 py-1.5 text-neonGold font-bold text-xs border-b-2 border-neonGold">
+                <i class="fa-solid fa-store block text-sm mb-0.5"></i> Produk
+            </button>
+            <button id="mobile-nav-orders" onclick="switchTab('orders')" class="flex-1 py-1.5 text-gray-400 font-bold text-xs">
+                <i class="fa-solid fa-receipt block text-sm mb-0.5"></i> Lacak Pesanan
+            </button>
+        </div>
+    </nav>
+
+    <!-- MAIN CONTAINER -->
+    <main class="flex-grow max-w-7xl w-full mx-auto px-3 sm:px-6 lg:px-8 py-6 sm:py-8 space-y-8">
+
+        <section id="tab-shop" class="space-y-8">
+
+            <!-- BANNER CAROUSEL -->
+            <div class="relative rounded-2xl sm:rounded-3xl overflow-hidden glass-panel border border-neonCyan/30 shadow-2xl">
+                <div id="carousel-slides-container" class="relative w-full aspect-[16/9] sm:aspect-[21/9] md:aspect-[24/9] min-h-[220px] sm:min-h-[280px]">
+                    
+                    <!-- SLIDE 1 -->
+                    <div class="carousel-slide active absolute inset-0 w-full h-full flex items-center p-5 sm:p-10 md:p-12 bg-gradient-to-r from-cyberBg via-cyberBg/90 to-transparent z-10">
+                        <img src="https://images.unsplash.com/photo-1542751371-adc38448a05e?auto=format&fit=crop&w=1600&q=80" alt="Roblox Top Up" class="absolute inset-0 banner-img-fit opacity-35 z-0" loading="lazy">
+                        <div class="relative z-10 space-y-2 sm:space-y-4 max-w-lg">
+                            <span class="inline-flex items-center gap-1.5 px-3 py-1 rounded-full bg-neonGold/20 border border-neonGold/50 text-neonGold font-extrabold text-[10px] sm:text-xs uppercase tracking-widest">
+                                <i class="fa-solid fa-shield-halved"></i> 100% GARANSI AMAN
+                            </span>
+                            <h1 class="font-display font-black text-xl sm:text-3xl md:text-4xl text-white leading-tight">
+                                TOP UP ROBUX <span class="text-neonCyan glow-text-cyan">RESMI & INSTAN</span>
+                            </h1>
+                            <p class="text-gray-300 text-xs sm:text-sm line-clamp-2 sm:line-clamp-none">
+                                Layanan top up Robux cepat, legal, dan terpercaya 24 jam non-stop dengan harga paling kompetitif.
+                            </p>
+                            <div class="pt-1 sm:pt-2">
+                                <button onclick="scrollToProducts()" class="bg-gradient-to-r from-neonGold to-amber-500 hover:opacity-90 text-black font-extrabold px-4 py-2 sm:px-6 sm:py-3 rounded-xl text-xs uppercase tracking-wider shadow-neon-gold transition flex items-center gap-2">
+                                    <i class="fa-solid fa-cart-shopping"></i> Beli Sekarang
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- SLIDE 2 -->
+                    <div class="carousel-slide absolute inset-0 w-full h-full flex items-center p-5 sm:p-10 md:p-12 bg-gradient-to-r from-cyberBg via-cyberBg/90 to-transparent z-10">
+                        <img src="https://images.unsplash.com/photo-1612287230202-1ff1d85d1bdf?auto=format&fit=crop&w=1600&q=80" alt="Robux Login & Username" class="absolute inset-0 banner-img-fit opacity-35 z-0" loading="lazy">
+                        <div class="relative z-10 space-y-2 sm:space-y-4 max-w-lg">
+                            <span class="inline-flex items-center gap-1.5 px-3 py-1 rounded-full bg-neonCyan/20 border border-neonCyan/50 text-neonCyan font-extrabold text-[10px] sm:text-xs uppercase tracking-widest">
+                                <i class="fa-solid fa-user-check"></i> AUTO-AVATAR DETECTOR
+                            </span>
+                            <h1 class="font-display font-black text-xl sm:text-3xl md:text-4xl text-white leading-tight">
+                                VIA <span class="text-neonGold glow-text-gold">USERNAME & LOGIN</span>
+                            </h1>
+                            <p class="text-gray-300 text-xs sm:text-sm line-clamp-2 sm:line-clamp-none">
+                                Sistem otomatis mendeteksi avatar Roblox kamu saat mengisikan username secara real-time.
+                            </p>
+                            <div class="pt-1 sm:pt-2">
+                                <button onclick="scrollToProducts()" class="bg-gradient-to-r from-neonCyan to-blue-600 hover:opacity-90 text-black font-extrabold px-4 py-2 sm:px-6 sm:py-3 rounded-xl text-xs uppercase tracking-wider shadow-neon-cyan transition flex items-center gap-2">
+                                    <i class="fa-solid fa-gamepad"></i> Cek Nominal
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- SLIDE 3 -->
+                    <div class="carousel-slide absolute inset-0 w-full h-full flex items-center p-5 sm:p-10 md:p-12 bg-gradient-to-r from-cyberBg via-cyberBg/90 to-transparent z-10">
+                        <img src="https://images.unsplash.com/photo-1550745165-9bc0b252726f?auto=format&fit=crop&w=1600&q=80" alt="Limited Roblox Items" class="absolute inset-0 banner-img-fit opacity-35 z-0" loading="lazy">
+                        <div class="relative z-10 space-y-2 sm:space-y-4 max-w-lg">
+                            <span class="inline-flex items-center gap-1.5 px-3 py-1 rounded-full bg-neonPurple/20 border border-neonPurple/50 text-neonPurple font-extrabold text-[10px] sm:text-xs uppercase tracking-widest">
+                                <i class="fa-solid fa-crown"></i> EXCLUSIVE ITEMS
+                            </span>
+                            <h1 class="font-display font-black text-xl sm:text-3xl md:text-4xl text-white leading-tight">
+                                LIMITED ITEMS <span class="text-neonPurple">8-BIT SERIES</span>
+                            </h1>
+                            <p class="text-gray-300 text-xs sm:text-sm line-clamp-2 sm:line-clamp-none">
+                                Miliki koleksi item langka Roblox 8-Bit Royal Crown, Extra HP, dan Paket Sultan eksklusif.
+                            </p>
+                            <div class="pt-1 sm:pt-2">
+                                <button onclick="filterCategory('LIMITED ITEMS'); scrollToProducts();" class="bg-neonPurple hover:opacity-90 text-white font-extrabold px-4 py-2 sm:px-6 sm:py-3 rounded-xl text-xs uppercase tracking-wider shadow-neon-purple transition flex items-center gap-2">
+                                    <i class="fa-solid fa-gem"></i> Cek Limited Items
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+                <!-- CAROUSEL NAV BUTTONS -->
+                <button onclick="prevSlide()" aria-label="Previous Slide" class="absolute left-2 sm:left-4 top-1/2 -translate-y-1/2 z-20 w-8 h-8 sm:w-10 sm:h-10 rounded-full bg-black/60 border border-neonCyan/40 text-neonCyan flex items-center justify-center hover:bg-neonCyan hover:text-black transition">
+                    <i class="fa-solid fa-chevron-left text-xs sm:text-sm"></i>
+                </button>
+                <button onclick="nextSlide()" aria-label="Next Slide" class="absolute right-2 sm:right-4 top-1/2 -translate-y-1/2 z-20 w-8 h-8 sm:w-10 sm:h-10 rounded-full bg-black/60 border border-neonCyan/40 text-neonCyan flex items-center justify-center hover:bg-neonCyan hover:text-black transition">
+                    <i class="fa-solid fa-chevron-right text-xs sm:text-sm"></i>
+                </button>
+
+                <!-- CAROUSEL INDICATORS -->
+                <div class="absolute bottom-3 left-1/2 -translate-x-1/2 z-20 flex gap-2">
+                    <button onclick="setSlide(0)" class="carousel-dot w-6 sm:w-8 h-1.5 sm:h-2 rounded-full bg-neonCyan transition-all"></button>
+                    <button onclick="setSlide(1)" class="carousel-dot w-2 h-1.5 sm:h-2 rounded-full bg-gray-600 transition-all"></button>
+                    <button onclick="setSlide(2)" class="carousel-dot w-2 h-1.5 sm:h-2 rounded-full bg-gray-600 transition-all"></button>
+                </div>
+            </div>
+
+            <!-- SEARCH BAR & CATEGORY FILTER TABS -->
+            <div id="product-section" class="space-y-5 pt-2">
+                
+                <div class="flex flex-col sm:flex-row justify-between items-start sm:items-center gap-4">
+                    <div>
+                        <h2 class="font-display font-extrabold text-xl sm:text-2xl text-white flex items-center gap-2">
+                            <i class="fa-solid fa-boxes-stacked text-neonGold"></i> KATALOG PRODUK TOP UP
+                        </h2>
+                        <p class="text-xs text-gray-400">Pilih nominal Robux atau item Roblox sesuai keinginan kamu</p>
+                    </div>
+
+                    <!-- SEARCH INPUT -->
+                    <div class="relative w-full sm:w-72">
+                        <input type="text" id="shop-search-input" onkeyup="renderShopProducts()" placeholder="Cari nominal Robux / Item..." class="w-full bg-cyberBg border border-gray-700 focus:border-neonCyan rounded-xl pl-10 pr-4 py-2.5 text-xs text-white focus:outline-none transition">
+                        <i class="fa-solid fa-magnifying-glass absolute left-3.5 top-3 text-gray-400 text-xs"></i>
+                    </div>
+                </div>
+
+                <!-- CATEGORY TABS -->
+                <div class="flex overflow-x-auto pb-2 gap-2 no-scrollbar border-b border-gray-800/80">
+                    <button onclick="filterCategory('ALL')" class="cat-filter-btn active whitespace-nowrap px-4 py-2.5 rounded-xl font-bold text-xs uppercase tracking-wider transition bg-gradient-to-r from-neonGold to-amber-500 text-black shadow-neon-gold flex-shrink-0">
+                        <i class="fa-solid fa-border-all mr-1.5"></i> Semua Produk
+                    </button>
+                    <button onclick="filterCategory('ROBUX VIA USERNAME')" class="cat-filter-btn whitespace-nowrap px-4 py-2.5 rounded-xl font-bold text-xs uppercase tracking-wider transition bg-cyberNav border border-gray-800 text-gray-400 hover:text-white hover:border-neonCyan flex-shrink-0">
+                        <i class="fa-solid fa-bolt mr-1.5 text-neonCyan"></i> Via Username
+                    </button>
+                    <button onclick="filterCategory('ROBUX VIA LOGIN')" class="cat-filter-btn whitespace-nowrap px-4 py-2.5 rounded-xl font-bold text-xs uppercase tracking-wider transition bg-cyberNav border border-gray-800 text-gray-400 hover:text-white hover:border-neonCyan flex-shrink-0">
+                        <i class="fa-solid fa-lock mr-1.5 text-neonPurple"></i> Via Login
+                    </button>
+                    <button onclick="filterCategory('LIMITED ITEMS')" class="cat-filter-btn whitespace-nowrap px-4 py-2.5 rounded-xl font-bold text-xs uppercase tracking-wider transition bg-cyberNav border border-gray-800 text-gray-400 hover:text-white hover:border-neonCyan flex-shrink-0">
+                        <i class="fa-solid fa-crown mr-1.5 text-neonGold"></i> Limited Items
+                    </button>
+                </div>
+
+            </div>
+
+            <!-- PRODUCTS GRID -->
+            <div id="shop-products-grid" class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-4 sm:gap-6">
+                <!-- Products rendered dynamically -->
+            </div>
+
+            <!-- TRUST FEATURES -->
+            <div class="grid grid-cols-2 lg:grid-cols-5 gap-3 sm:gap-4 pt-4">
+                <div class="glass-panel rounded-2xl p-3.5 sm:p-4 text-center space-y-1">
+                    <i class="fa-solid fa-shield-halved text-neonGreen text-lg sm:text-xl mb-1"></i>
+                    <div class="text-[11px] sm:text-xs font-bold text-white">100% Legal & Aman</div>
+                </div>
+                <div class="glass-panel rounded-2xl p-3.5 sm:p-4 text-center space-y-1">
+                    <i class="fa-solid fa-bolt text-neonGold text-lg sm:text-xl mb-1"></i>
+                    <div class="text-[11px] sm:text-xs font-bold text-white">Proses Super Cepat</div>
+                </div>
+                <div class="glass-panel rounded-2xl p-3.5 sm:p-4 text-center space-y-1">
+                    <i class="fa-solid fa-tags text-neonCyan text-lg sm:text-xl mb-1"></i>
+                    <div class="text-[11px] sm:text-xs font-bold text-white">Harga Termurah</div>
+                </div>
+                <div class="glass-panel rounded-2xl p-3.5 sm:p-4 text-center space-y-1">
+                    <i class="fa-solid fa-headset text-neonPurple text-lg sm:text-xl mb-1"></i>
+                    <div class="text-[11px] sm:text-xs font-bold text-white">Layanan CS 24/7</div>
+                </div>
+                <div class="glass-panel rounded-2xl p-3.5 sm:p-4 text-center col-span-2 lg:col-span-1 space-y-1">
+                    <i class="fa-solid fa-thumbs-up text-neonPink text-lg sm:text-xl mb-1"></i>
+                    <div class="text-[11px] sm:text-xs font-bold text-white">Terpercaya 100%</div>
+                </div>
+            </div>
+
+        </section>
+
+        <section id="tab-orders" class="hidden space-y-6">
+            <div class="glass-panel rounded-2xl sm:rounded-3xl p-5 sm:p-10 border border-neonCyan/30 space-y-6">
+                
+                <div class="max-w-2xl mx-auto text-center space-y-3">
+                    <div class="w-14 h-14 sm:w-16 sm:h-16 bg-neonCyan/10 border border-neonCyan text-neonCyan rounded-2xl flex items-center justify-center mx-auto text-2xl shadow-neon-cyan">
+                        <i class="fa-solid fa-receipt"></i>
+                    </div>
+                    <h2 class="font-display font-extrabold text-xl sm:text-3xl text-white">LACAK STATUS PESANAN</h2>
+                    <p class="text-xs sm:text-sm text-gray-400">
+                        Cek status transaksi Anda dengan memasukkan **Nomor Invoice (#LVX-XXXXXX)** atau **Username Roblox**.
+                    </p>
+
+                    <div class="flex gap-2 pt-2">
+                        <input type="text" id="user-search-query" onkeyup="if(event.key==='Enter') searchUserOrders()" placeholder="Contoh: #LVX-88291 atau Username..." class="w-full bg-cyberBg border border-gray-700 focus:border-neonCyan rounded-xl px-4 py-3 text-xs text-white focus:outline-none transition">
+                        <button onclick="searchUserOrders()" class="bg-gradient-to-r from-neonGold to-amber-500 text-black font-extrabold px-5 py-3 rounded-xl text-xs transition hover:scale-105 shadow-neon-gold flex-shrink-0 uppercase">
+                            Cari
+                        </button>
+                    </div>
+                </div>
+
+                <div id="user-orders-result" class="space-y-4 pt-2">
+                    <!-- Dynamic Orders List -->
+                </div>
+
+            </div>
+        </section>
+
+        <section id="tab-admin" class="hidden space-y-6 sm:space-y-8">
+            
+            <div class="glass-panel border-2 border-neonGold/50 rounded-2xl sm:rounded-3xl p-5 sm:p-6 shadow-neon-gold flex flex-col sm:flex-row justify-between items-start sm:items-center gap-4">
+                <div>
+                    <span id="admin-role-badge" class="bg-neonGold/20 text-neonGold text-[10px] font-extrabold px-3 py-1 rounded-full border border-neonGold/40 uppercase tracking-widest">
+                        ROLE: OWNER
+                    </span>
+                    <h2 class="font-display font-black text-xl sm:text-3xl text-white mt-1">DASHBOARD ADMIN STORE</h2>
+                    <p class="text-xs text-gray-400">Kelola pesanan masuk, lakukan konfirmasi ACC/Tolak, atur stok & kelola pengguna.</p>
+                </div>
+                <button onclick="logoutAdmin()" class="bg-red-500/20 text-red-400 border border-red-500/40 hover:bg-red-500/30 px-4 py-2 rounded-xl text-xs font-bold transition w-full sm:w-auto">
+                    <i class="fa-solid fa-right-from-bracket mr-1"></i> Keluar
+                </button>
+            </div>
+
+            <!-- STATS CARDS -->
+            <div class="grid grid-cols-2 lg:grid-cols-4 gap-3 sm:gap-4">
+                <div class="bg-cyberBg border border-gray-800 rounded-2xl p-4 space-y-1">
+                    <div class="text-[11px] sm:text-xs text-gray-400">Total Pendapatan ACC</div>
+                    <div id="stat-revenue" class="font-display font-bold text-lg sm:text-xl text-neonGreen">Rp 0</div>
+                </div>
+                <div class="bg-cyberBg border border-gray-800 rounded-2xl p-4 space-y-1">
+                    <div class="text-[11px] sm:text-xs text-gray-400">Pesanan Pending</div>
+                    <div id="stat-pending" class="font-display font-bold text-lg sm:text-xl text-neonGold">0</div>
+                </div>
+                <div class="bg-cyberBg border border-gray-800 rounded-2xl p-4 space-y-1">
+                    <div class="text-[11px] sm:text-xs text-gray-400">Pesanan Disetujui (ACC)</div>
+                    <div id="stat-acc" class="font-display font-bold text-lg sm:text-xl text-neonCyan">0</div>
+                </div>
+                <div class="bg-cyberBg border border-gray-800 rounded-2xl p-4 space-y-1">
+                    <div class="text-[11px] sm:text-xs text-gray-400">Pesanan Ditolak</div>
+                    <div id="stat-rejected" class="font-display font-bold text-lg sm:text-xl text-neonPink">0</div>
+                </div>
+            </div>
+
+            <!-- ADMIN SUB TABS -->
+            <div class="flex border-b border-gray-800 gap-6 font-bold text-xs uppercase tracking-wider overflow-x-auto">
+                <button id="admin-sub-orders-btn" onclick="switchAdminSubTab('orders')" class="pb-3 text-neonCyan border-b-2 border-neonCyan flex items-center gap-2 whitespace-nowrap">
+                    <i class="fa-solid fa-receipt"></i> Transaksi Masuk
+                    <span id="admin-pending-count-badge" class="bg-red-500 text-white text-[10px] px-2 py-0.5 rounded-full">0</span>
+                </button>
+                <button id="admin-sub-products-btn" onclick="switchAdminSubTab('products')" class="pb-3 text-gray-400 border-b-2 border-transparent hover:text-white flex items-center gap-2 whitespace-nowrap">
+                    <i class="fa-solid fa-boxes-stacked"></i> Kelola Stok & Harga
+                </button>
+                <button id="admin-sub-users-btn" onclick="switchAdminSubTab('users')" class="pb-3 text-gray-400 border-b-2 border-transparent hover:text-white flex items-center gap-2 whitespace-nowrap">
+                    <i class="fa-solid fa-users"></i> Kelola Pengguna & Role
+                </button>
+            </div>
+
+            <!-- ADMIN ORDERS -->
+            <div id="admin-sub-orders" class="space-y-4">
+                <div id="admin-orders-list" class="space-y-4"></div>
+            </div>
+
+            <!-- ADMIN PRODUCTS -->
+            <div id="admin-sub-products" class="hidden space-y-6">
+                <div class="flex justify-between items-center">
+                    <h3 class="font-display font-bold text-base sm:text-lg text-white">Daftar Produk Aktif</h3>
+                    <button onclick="openAddProductModal()" class="bg-gradient-to-r from-neonCyan to-blue-600 text-black font-extrabold px-3 py-2 sm:px-4 sm:py-2 rounded-xl text-xs transition shadow-neon-cyan uppercase">
+                        <i class="fa-solid fa-plus mr-1"></i> Tambah Produk
+                    </button>
+                </div>
+
+                <div id="admin-products-grid" class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4"></div>
+            </div>
+
+            <!-- ADMIN USER MANAGEMENT -->
+            <div id="admin-sub-users" class="hidden space-y-6">
+                <div class="flex justify-between items-center">
+                    <h3 class="font-display font-bold text-base sm:text-lg text-white">Manajemen Akun & Role Pengguna</h3>
+                </div>
+
+                <div class="glass-panel rounded-2xl overflow-x-auto border border-gray-800">
+                    <table class="w-full text-left text-xs text-gray-300">
+                        <thead class="bg-cyberBg/90 uppercase text-[10px] font-bold text-gray-400 border-b border-gray-800">
+                            <tr>
+                                <th class="p-3">User</th>
+                                <th class="p-3">Email</th>
+                                <th class="p-3">Provider Login</th>
+                                <th class="p-3">Role Saat Ini</th>
+                                <th class="p-3">Aksi Role</th>
+                            </tr>
+                        </thead>
+                        <tbody id="admin-users-table-body" class="divide-y divide-gray-800">
+                            <!-- Rendered dynamically -->
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+
+        </section>
+
+    </main>
+
+    <!-- FOOTER -->
+    <footer class="mt-auto border-t border-gray-800/80 bg-cyberNav/90 py-8">
+        <div class="max-w-7xl mx-auto px-4 text-center space-y-4">
+            <div class="flex justify-center items-center gap-2 font-display font-black text-xl text-white">
+                LVX<span class="text-neonCyan">STORE</span>
+            </div>
+            <p class="text-xs text-gray-400 max-w-md mx-auto leading-relaxed">
+                Platform Top Up Robux Roblox resmi, tercepat, dan termurah di Indonesia dengan garansi penuh 24 jam.
+            </p>
+            <div class="flex flex-wrap justify-center gap-4 sm:gap-6 text-xs text-neonGold font-semibold">
+                <span><i class="fa-brands fa-whatsapp mr-1"></i> 083177553487</span>
+                <span><i class="fa-brands fa-instagram mr-1"></i> @OFFICIAL LVX STORE ID</span>
+            </div>
+            <div class="text-[11px] text-gray-500 pt-2">
+                &copy; 2026 LVX STORE. All Rights Reserved.
+            </div>
+        </div>
+    </footer>
+
+    
+    <!-- MODAL AUTHENTICATION -->
+    <div id="modal-auth" class="fixed inset-0 z-50 flex items-center justify-center p-4 modal-backdrop hidden">
+        <div class="glass-panel border-2 border-neonCyan rounded-2xl sm:rounded-3xl max-w-md w-full p-6 shadow-neon-cyan relative space-y-5">
+            <button onclick="closeModal('modal-auth')" class="absolute top-4 right-4 text-gray-400 hover:text-white">
+                <i class="fa-solid fa-xmark text-lg"></i>
+            </button>
+            <div class="text-center space-y-1">
+                <div class="w-12 h-12 bg-neonCyan/20 border border-neonCyan text-neonCyan rounded-2xl flex items-center justify-center mx-auto text-xl">
+                    <i class="fa-solid fa-user-lock"></i>
+                </div>
+                <h3 class="font-display font-bold text-xl text-white">LOGIN / DAFTAR AKUN</h3>
+                <p class="text-xs text-gray-400">Masuk untuk transaksi lebih mudah & melihat riwayat pesanan</p>
+            </div>
+
+            <!-- ONE CLICK SOCIAL AUTH -->
+            <div class="grid grid-cols-2 gap-3">
+                <button onclick="loginOAuth('Discord')" class="bg-[#5865F2] hover:opacity-90 text-white font-bold py-2.5 px-3 rounded-xl text-xs flex items-center justify-center gap-2 transition">
+                    <i class="fa-brands fa-discord text-base"></i> Discord
+                </button>
+                <button onclick="loginOAuth('Google')" class="bg-white hover:bg-gray-100 text-gray-800 font-bold py-2.5 px-3 rounded-xl text-xs flex items-center justify-center gap-2 transition">
+                    <i class="fa-brands fa-google text-red-500 text-base"></i> Gmail
+                </button>
+            </div>
+
+            <div class="relative flex py-1 items-center">
+                <div class="flex-grow border-t border-gray-700"></div>
+                <span class="flex-shrink mx-3 text-[10px] text-gray-400 uppercase font-bold">atau Email Manual</span>
+                <div class="flex-grow border-t border-gray-700"></div>
+            </div>
+
+            <!-- FORM LOGIN / REGISTER -->
+            <form onsubmit="handleManualAuthSubmit(event)" class="space-y-3">
+                <input type="text" id="auth-name-input" placeholder="Nama Lengkap / Display Name" class="w-full bg-cyberBg border border-gray-700 rounded-xl px-4 py-2.5 text-xs text-white focus:outline-none focus:border-neonCyan">
+                <input type="email" id="auth-email-input" required placeholder="Alamat Email (contoh: user@gmail.com)" class="w-full bg-cyberBg border border-gray-700 rounded-xl px-4 py-2.5 text-xs text-white focus:outline-none focus:border-neonCyan">
+                <input type="password" id="auth-pass-input" required placeholder="Password" class="w-full bg-cyberBg border border-gray-700 rounded-xl px-4 py-2.5 text-xs text-white focus:outline-none focus:border-neonCyan">
+                
+                <!-- CAPTCHA VERIFICATION -->
+                <div class="bg-cyberBg border border-gray-800 rounded-xl p-3 flex items-center justify-between gap-3">
+                    <span id="captcha-question" class="font-bold text-neonGold text-xs font-display">2 + 5 = ?</span>
+                    <input type="number" id="captcha-answer" required placeholder="Jawaban" class="w-24 bg-cardBg border border-gray-700 rounded-lg px-3 py-1.5 text-xs text-white text-center focus:outline-none focus:border-neonCyan">
+                </div>
+
+                <button type="submit" class="w-full bg-gradient-to-r from-neonCyan to-blue-600 text-black font-extrabold py-3 rounded-xl text-xs uppercase tracking-wider shadow-neon-cyan">
+                    Masuk / Daftar Sekarang
+                </button>
+            </form>
+
+            <div class="text-[10px] text-gray-400 text-center">
+                *Akun baru secara otomatis mendapatkan role <strong class="text-neonCyan">PEMBELI</strong>.
+            </div>
+        </div>
+    </div>
+
+    <!-- MODAL BUYER CHECKOUT -->
+    <div id="modal-checkout" class="fixed inset-0 z-50 flex items-center justify-center p-3 sm:p-4 modal-backdrop hidden">
+        <div class="glass-panel border-2 border-neonCyan rounded-2xl sm:rounded-3xl max-w-lg w-full p-5 sm:p-8 shadow-neon-cyan relative max-h-[90vh] overflow-y-auto space-y-5">
+            <button onclick="closeModal('modal-checkout')" class="absolute top-4 right-4 text-gray-400 hover:text-white">
+                <i class="fa-solid fa-xmark text-xl"></i>
+            </button>
+
+            <div class="border-b border-gray-800 pb-3">
+                <span id="checkout-cat-badge" class="text-[10px] font-extrabold px-2.5 py-0.5 rounded-full bg-neonCyan/20 text-neonCyan border border-neonCyan/40 uppercase tracking-wider">
+                    CATEGORY
+                </span>
+                <h3 id="checkout-product-title" class="font-display font-black text-xl sm:text-2xl text-white mt-2">1,500 ROBUX</h3>
+                <div id="checkout-product-price" class="text-neonCyan font-bold text-base sm:text-lg mt-0.5">Rp 185.000</div>
+            </div>
+
+            <form id="form-checkout" onsubmit="processCheckoutSubmit(event)" class="space-y-4">
+                <input type="hidden" id="checkout-prod-id">
+
+                <!-- USERNAME & AVATAR LOOKUP -->
+                <div>
+                    <label class="block text-[11px] font-bold text-gray-300 uppercase tracking-wider mb-1">
+                        1. Username Roblox <span class="text-red-500">*</span>
+                    </label>
+                    <div class="flex gap-2">
+                        <input type="text" id="co-roblox-user" required onkeyup="debounceAvatarFetch()" placeholder="Ketik Username Roblox Kamu..." class="w-full bg-cyberBg border border-gray-700 rounded-xl px-3.5 py-2.5 text-xs text-white focus:outline-none focus:border-neonCyan">
+                        <button type="button" onclick="fetchRobloxAvatar()" class="bg-neonCyan/20 text-neonCyan border border-neonCyan/50 px-3.5 rounded-xl font-bold text-xs hover:bg-neonCyan hover:text-black transition flex-shrink-0">
+                            Cek Avatar
+                        </button>
+                    </div>
+
+                    <!-- AVATAR DETECTED CARD -->
+                    <div id="roblox-avatar-preview-card" class="mt-3 bg-cyberBg/90 border border-neonCyan/30 rounded-xl p-3 flex items-center gap-3 hidden">
+                        <img id="roblox-avatar-img" src="" alt="Roblox Avatar" class="w-12 h-12 rounded-full border-2 border-neonCyan bg-gray-900 object-cover">
+                        <div>
+                            <div class="flex items-center gap-1.5">
+                                <span id="roblox-display-name" class="font-bold text-xs text-white">DisplayName</span>
+                                <i class="fa-solid fa-circle-check text-neonGreen text-xs"></i>
+                            </div>
+                            <div id="roblox-user-id" class="text-[10px] text-gray-400">ID: 0000000</div>
+                            <span class="text-[9px] font-bold text-neonGreen uppercase">Akun Ditemukan</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div>
+                    <label class="block text-[11px] font-bold text-gray-300 uppercase tracking-wider mb-1">
+                        2. Nomor WhatsApp Active <span class="text-red-500">*</span>
+                    </label>
+                    <input type="tel" id="co-wa-number" required placeholder="Nomor WA untuk konfirmasi..." class="w-full bg-cyberBg border border-gray-700 rounded-xl px-3.5 py-2.5 text-xs text-white focus:outline-none focus:border-neonCyan">
+                </div>
+
+                <div>
+                    <label class="block text-[11px] font-bold text-gray-300 uppercase tracking-wider mb-1">
+                        3. Metode Pembayaran <span class="text-red-500">*</span>
+                    </label>
+                    <select id="co-payment-method" onchange="calculateSummaryFee()" required class="w-full bg-cyberBg border border-gray-700 rounded-xl px-3.5 py-2.5 text-xs text-white focus:outline-none focus:border-neonCyan">
+                        <option value="QRIS">QRIS All Payment (Bebas Biaya Admin)</option>
+                        <option value="DANA">DANA - 083177553487 (LVX Store)</option>
+                        <option value="GOPAY">GOPAY - 083177553487 (LVX Store)</option>
+                        <option value="OVO">OVO - 083177553487 (LVX Store)</option>
+                        <option value="BCA">Transfer Bank BCA - 8830192831</option>
+                        <option value="MANDIRI">Transfer Bank Mandiri - 113001827364</option>
+                    </select>
+                </div>
+
+                <div>
+                    <label class="block text-[11px] font-bold text-gray-300 uppercase tracking-wider mb-1">
+                        4. Catatan Pesanan (Opsional)
+                    </label>
+                    <textarea id="co-notes" rows="2" placeholder="Link Gamepass atau pesan tambahan..." class="w-full bg-cyberBg border border-gray-700 rounded-xl px-3.5 py-2 text-xs text-white focus:outline-none focus:border-neonCyan"></textarea>
+                </div>
+
+                <!-- SUMMARY -->
+                <div class="bg-cyberBg border border-gray-800 rounded-xl p-3.5 space-y-1.5 text-xs">
+                    <div class="flex justify-between text-gray-400">
+                        <span>Harga Produk:</span>
+                        <span id="summary-base-price" class="font-bold text-white">Rp 0</span>
+                    </div>
+                    <div class="flex justify-between text-gray-400">
+                        <span>Biaya Admin:</span>
+                        <span id="summary-admin-fee" class="font-bold text-neonGreen">Rp 0</span>
+                    </div>
+                    <div class="border-t border-gray-800 pt-1.5 flex justify-between text-sm font-bold text-white">
+                        <span>Total Bayar:</span>
+                        <span id="summary-total-price" class="text-neonCyan font-display">Rp 0</span>
+                    </div>
+                </div>
+
+                <button type="submit" class="w-full bg-gradient-to-r from-neonCyan to-blue-600 hover:opacity-90 text-black font-extrabold py-3 sm:py-3.5 rounded-xl text-xs uppercase tracking-wider transition shadow-neon-cyan flex items-center justify-center gap-2">
+                    <i class="fa-solid fa-paper-plane"></i> Kirim Pesanan Sekarang
+                </button>
+            </form>
+        </div>
+    </div>
+
+    <!-- MODAL SUCCESS ORDER -->
+    <div id="modal-success" class="fixed inset-0 z-50 flex items-center justify-center p-4 modal-backdrop hidden">
+        <div class="glass-panel border-2 border-neonGreen rounded-2xl sm:rounded-3xl max-w-md w-full p-6 text-center space-y-4 relative">
+            <div class="w-14 h-14 bg-neonGreen/20 border border-neonGreen text-neonGreen rounded-full flex items-center justify-center mx-auto text-2xl">
+                <i class="fa-solid fa-check"></i>
+            </div>
+            <div>
+                <h3 class="font-display font-extrabold text-xl sm:text-2xl text-white">PESANAN TERKIRIM!</h3>
+                <p class="text-xs text-gray-300 mt-1">Sistem kami sedang memproses transaksi Anda.</p>
+            </div>
+
+            <div class="bg-cyberBg border border-gray-800 rounded-2xl p-4 text-left space-y-2 text-xs">
+                <div class="flex justify-between">
+                    <span class="text-gray-400">Kode Invoice:</span>
+                    <span id="succ-order-id" class="font-bold text-neonCyan font-display">#LVX-00000</span>
+                </div>
+                <div class="flex justify-between">
+                    <span class="text-gray-400">Username Roblox:</span>
+                    <span id="succ-roblox-user" class="font-bold text-white">User</span>
+                </div>
+                <div class="flex justify-between">
+                    <span class="text-gray-400">Total Tagihan:</span>
+                    <span id="succ-total-pay" class="font-bold text-neonGreen">Rp 0</span>
+                </div>
+            </div>
+
+            <div class="flex flex-col gap-2 pt-2">
+                <button onclick="trackSuccessOrder()" class="w-full bg-neonCyan text-black font-extrabold py-3 rounded-xl text-xs uppercase tracking-wider shadow-neon-cyan">
+                    <i class="fa-solid fa-receipt mr-1"></i> Lacak Status Pesanan
+                </button>
+                <button onclick="closeModal('modal-success')" class="w-full bg-gray-800 text-gray-300 font-bold py-2.5 rounded-xl text-xs hover:text-white">
+                    Tutup
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <!-- MODAL REJECTION REASON GUI -->
+    <div id="modal-reject-reason" class="fixed inset-0 z-50 flex items-center justify-center p-4 modal-backdrop hidden">
+        <div class="glass-panel border-2 border-neonPink rounded-2xl sm:rounded-3xl max-w-md w-full p-6 shadow-neon-pink relative space-y-4">
+            <button onclick="closeModal('modal-reject-reason')" class="absolute top-4 right-4 text-gray-400 hover:text-white">
+                <i class="fa-solid fa-xmark text-lg"></i>
+            </button>
+
+            <div class="text-center space-y-1">
+                <div class="w-12 h-12 bg-neonPink/20 border border-neonPink text-neonPink rounded-2xl flex items-center justify-center mx-auto text-xl">
+                    <i class="fa-solid fa-ban"></i>
+                </div>
+                <h3 class="font-display font-extrabold text-xl text-white">TOLAK PESANAN</h3>
+                <p class="text-xs text-gray-400">Pilih atau tuliskan alasan penolakan untuk pembeli.</p>
+            </div>
+
+            <input type="hidden" id="reject-order-id-target">
+
+            <div class="space-y-3 text-left">
+                <div>
+                    <label class="block text-xs font-bold text-gray-300 mb-1">Templat Alasan Penolakan:</label>
+                    <select id="quick-reason-select" onchange="applyQuickReason(this.value)" class="w-full bg-cyberBg border border-gray-700 rounded-xl px-3 py-2 text-xs text-white">
+                        <option value="">-- Pilih Templat --</option>
+                        <option value="Username Roblox Tidak Ditemukan / Salah Format">Username Roblox Tidak Ditemukan / Salah</option>
+                        <option value="Bukti Pembayaran Belum Diterima / Transfer Tidak Sesuai">Bukti Pembayaran Belum Diterima / Tidak Sesuai</option>
+                        <option value="Akun Roblox Terkunci Verifikasi 2FA">Akun Roblox Terkunci Verifikasi 2FA</option>
+                        <option value="Gamepass Belum Dibuat Sesuai Nominal Harga">Gamepass Belum Dibuat Sesuai Harga</option>
+                        <option value="Stok Produk Sedang Habis Sementara">Stok Produk Sedang Habis Sementara</option>
+                    </select>
+                </div>
+
+                <div>
+                    <label class="block text-xs font-bold text-gray-300 mb-1">Pesan Alasan Penolakan <span class="text-red-500">*</span></label>
+                    <textarea id="custom-reject-reason" rows="3" required placeholder="Penjelasan detail penolakan..." class="w-full bg-cyberBg border border-gray-700 rounded-xl px-3.5 py-2 text-xs text-white focus:outline-none focus:border-neonPink"></textarea>
+                </div>
+
+                <div class="flex gap-3 pt-1">
+                    <button onclick="closeModal('modal-reject-reason')" class="w-1/2 bg-gray-800 text-gray-300 font-bold py-2.5 rounded-xl text-xs">
+                        Batal
+                    </button>
+                    <button onclick="confirmAdminReject()" class="w-1/2 bg-neonPink hover:bg-pink-600 text-white font-extrabold py-2.5 rounded-xl text-xs shadow-neon-pink">
+                        Konfirmasi Tolak
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- MODAL ADD PRODUCT -->
+    <div id="modal-add-product" class="fixed inset-0 z-50 flex items-center justify-center p-4 modal-backdrop hidden">
+        <div class="glass-panel border-2 border-neonCyan rounded-2xl sm:rounded-3xl max-w-md w-full p-6 shadow-neon-cyan relative space-y-4">
+            <button onclick="closeModal('modal-add-product')" class="absolute top-4 right-4 text-gray-400 hover:text-white">
+                <i class="fa-solid fa-xmark text-lg"></i>
+            </button>
+
+            <h3 class="font-display font-bold text-xl text-white">TAMBAH PRODUK BARU</h3>
+
+            <form onsubmit="saveNewProductFromModal(event)" class="space-y-3">
+                <div>
+                    <label class="block text-xs font-bold text-gray-300 mb-1">Kategori Produk</label>
+                    <select id="new-prod-cat" required class="w-full bg-cyberBg border border-gray-700 rounded-xl px-3 py-2 text-xs text-white">
+                        <option value="ROBUX VIA USERNAME">ROBUX VIA USERNAME</option>
+                        <option value="ROBUX VIA LOGIN">ROBUX VIA LOGIN</option>
+                        <option value="LIMITED ITEMS">LIMITED ITEMS</option>
+                    </select>
+                </div>
+                <div>
+                    <label class="block text-xs font-bold text-gray-300 mb-1">Nama Produk</label>
+                    <input type="text" id="new-prod-name" required placeholder="Contoh: 3,000 Robux" class="w-full bg-cyberBg border border-gray-700 rounded-xl px-3 py-2 text-xs text-white">
+                </div>
+                <div>
+                    <label class="block text-xs font-bold text-gray-300 mb-1">Harga Tampilan (Rp)</label>
+                    <input type="text" id="new-prod-price" required placeholder="Contoh: Rp 400.000" class="w-full bg-cyberBg border border-gray-700 rounded-xl px-3 py-2 text-xs text-white">
+                </div>
+                <div>
+                    <label class="block text-xs font-bold text-gray-300 mb-1">Status Stok Awal</label>
+                    <select id="new-prod-status" required class="w-full bg-cyberBg border border-gray-700 rounded-xl px-3 py-2 text-xs text-white">
+                        <option value="zero">STOK 0</option>
+                        <option value="limited">STOK TERBATAS</option>
+                        <option value="available">TERSEDIA</option>
+                    </select>
+                </div>
+
+                <div class="pt-2">
+                    <button type="submit" class="w-full bg-neonCyan text-black font-extrabold py-3 rounded-xl text-xs uppercase tracking-wider shadow-neon-cyan">
+                        Simpan Produk
+                    </button>
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <script>
+        const initialProducts = [
+            { id: 101, category: "ROBUX VIA USERNAME", icon: "fa-bolt", name: "1.500 Robux", price: "Rp 185.000", rawPrice: 185000, status: "zero" },
+            { id: 102, category: "ROBUX VIA USERNAME", icon: "fa-bolt", name: "2.000 Robux", price: "Rp 240.000", rawPrice: 240000, status: "limited" },
+            { id: 103, category: "ROBUX VIA USERNAME", icon: "fa-bolt", name: "2.500 Robux", price: "Rp 320.000", rawPrice: 320000, status: "zero" },
+            { id: 104, category: "ROBUX VIA USERNAME", icon: "fa-bolt", name: "4.000 Robux", price: "Rp 340.000", rawPrice: 340000, status: "limited" },
+            { id: 105, category: "ROBUX VIA USERNAME", icon: "fa-bolt", name: "5.000 Robux", price: "Rp 657.000", rawPrice: 657000, status: "available" },
+
+            { id: 201, category: "ROBUX VIA LOGIN", icon: "fa-lock", name: "1.500 Robux", price: "Rp 180.000", rawPrice: 180000, status: "zero" },
+            { id: 202, category: "ROBUX VIA LOGIN", icon: "fa-lock", name: "2.500 Robux", price: "Rp 305.000", rawPrice: 305000, status: "limited" },
+            { id: 203, category: "ROBUX VIA LOGIN", icon: "fa-lock", name: "3.500 Robux", price: "Rp 455.000", rawPrice: 455000, status: "zero" },
+            { id: 204, category: "ROBUX VIA LOGIN", icon: "fa-lock", name: "5.000 Robux", price: "Rp 640.000", rawPrice: 640000, status: "limited" },
+            { id: 205, category: "ROBUX VIA LOGIN", icon: "fa-lock", name: "10.000 Robux", price: "Rp 1.200.000", rawPrice: 1200000, status: "available" },
+
+            { id: 301, category: "LIMITED ITEMS", icon: "fa-crown", name: "8-BIT ROYAL CROWN", price: "Rp 2.080.000", rawPrice: 2080000, status: "available" },
+            { id: 302, category: "LIMITED ITEMS", icon: "fa-crown", name: "8-BIT EXTRA", price: "Rp 600.000", rawPrice: 600000, status: "available" },
+            { id: 303, category: "LIMITED ITEMS", icon: "fa-crown", name: "PAKET HEMAT (4 ITEMS 8-BIT)", price: "Rp 4.800.000", rawPrice: 4800000, status: "limited" }
+        ];
+
+        const defaultUsers = [
+            { id: 'usr-owner', name: 'Owner LVX Store', email: 'owner@lvxstore.id', role: 'OWNER', provider: 'Email' },
+            { id: 'usr-admin', name: 'Admin Operations', email: 'admin@lvxstore.id', role: 'ADMIN', provider: 'Email' },
+            { id: 'usr-mgr', name: 'Management Lead', email: 'mgr@lvxstore.id', role: 'MANAJEMEN', provider: 'Email' }
+        ];
+
+        let products = JSON.parse(localStorage.getItem('lvx_clean_products')) || initialProducts;
+        let orders = JSON.parse(localStorage.getItem('lvx_clean_orders')) || [];
+        let users = JSON.parse(localStorage.getItem('lvx_clean_users')) || defaultUsers;
+        let currentUser = JSON.parse(localStorage.getItem('lvx_active_user')) || null;
+
+        let currentCategoryFilter = 'ALL';
+        let currentSlide = 0;
+        let avatarTimeout = null;
+        let numA = 3, numB = 4;
+
+        function saveData() {
+            localStorage.setItem('lvx_clean_products', JSON.stringify(products));
+            localStorage.setItem('lvx_clean_orders', JSON.stringify(orders));
+            localStorage.setItem('lvx_clean_users', JSON.stringify(users));
+            if (currentUser) {
+                localStorage.setItem('lvx_active_user', JSON.stringify(currentUser));
+            } else {
+                localStorage.removeItem('lvx_active_user');
+            }
+            updateBadgesAndStats();
+            renderHeaderAuth();
+        }
+
+        // CAROUSEL CONTROLS
+        function showSlide(index) {
+            const slides = document.querySelectorAll('.carousel-slide');
+            const dots = document.querySelectorAll('.carousel-dot');
+            if (slides.length === 0) return;
+
+            slides.forEach(s => s.classList.remove('active'));
+            dots.forEach(d => {
+                d.className = "carousel-dot w-2 h-1.5 sm:h-2 rounded-full bg-gray-600 transition-all";
+            });
+
+            currentSlide = (index + slides.length) % slides.length;
+            slides[currentSlide].classList.add('active');
+            dots[currentSlide].className = "carousel-dot w-6 sm:w-8 h-1.5 sm:h-2 rounded-full bg-neonCyan transition-all";
+        }
+
+        function nextSlide() { showSlide(currentSlide + 1); }
+        function prevSlide() { showSlide(currentSlide - 1); }
+        function setSlide(i) { showSlide(i); }
+
+        setInterval(() => { nextSlide(); }, 6000);
+
+        // AUTH HEADER RENDER
+        function renderHeaderAuth() {
+            const area = document.getElementById('auth-header-area');
+            if (!currentUser) {
+                area.innerHTML = `
+                    <button onclick="openAuthModal()" class="px-3.5 py-2 sm:px-4 sm:py-2 rounded-xl bg-gradient-to-r from-neonCyan to-blue-600 text-black font-extrabold text-xs uppercase tracking-wider shadow-neon-cyan flex items-center gap-2">
+                        <i class="fa-solid fa-right-to-bracket"></i> Login / Daftar
+                    </button>
+                `;
+            } else {
+                let roleColor = 'text-neonCyan';
+                if (currentUser.role === 'OWNER') roleColor = 'text-neonGold';
+                if (currentUser.role === 'MANAJEMEN') roleColor = 'text-neonPurple';
+
+                area.innerHTML = `
+                    <div class="flex items-center gap-2">
+                        ${currentUser.role !== 'PEMBELI' ? `
+                            <button onclick="switchTab('admin')" class="px-3 py-2 sm:px-4 sm:py-2 rounded-xl border border-neonGold/50 text-neonGold hover:bg-neonGold/10 font-bold text-xs uppercase tracking-wider transition flex items-center gap-2 shadow-neon-gold">
+                                <i class="fa-solid fa-user-shield text-sm"></i>
+                                <span class="hidden sm:inline">Dashboard ${currentUser.role}</span>
+                            </button>
+                        ` : ''}
+                        <button onclick="logoutUser()" class="px-3 py-2 rounded-xl bg-gray-800 text-gray-300 hover:text-white font-bold text-xs" title="Keluar">
+                            <i class="fa-solid fa-power-off"></i>
+                        </button>
+                    </div>
+                `;
+            }
+        }
+
+        function openAuthModal() {
+            numA = Math.floor(Math.random() * 9) + 1;
+            numB = Math.floor(Math.random() * 9) + 1;
+            document.getElementById('captcha-question').innerText = `${numA} + ${numB} = ?`;
+            document.getElementById('modal-auth').classList.remove('hidden');
+        }
+
+        function loginOAuth(provider) {
+            const email = `${provider.toLowerCase()}_user${Math.floor(Math.random()*100)}@lvxstore.id`;
+            let existing = users.find(u => u.email === email);
+            if (!existing) {
+                existing = {
+                    id: 'usr-' + Date.now(),
+                    name: `${provider} User`,
+                    email: email,
+                    role: 'PEMBELI',
+                    provider: provider
+                };
+                users.push(existing);
+            }
+            currentUser = existing;
+            saveData();
+            closeModal('modal-auth');
+            alert(`Berhasil Login via ${provider}! Role Anda: ${currentUser.role}`);
+        }
+
+        function handleManualAuthSubmit(e) {
+            e.preventDefault();
+            const ans = parseInt(document.getElementById('captcha-answer').value);
+            if (ans !== (numA + numB)) {
+                alert("Jawaban Captcha Salah!");
+                return;
+            }
+
+            const name = document.getElementById('auth-name-input').value.trim() || 'Pembeli Store';
+            const email = document.getElementById('auth-email-input').value.trim();
+
+            let existing = users.find(u => u.email.toLowerCase() === email.toLowerCase());
+            if (!existing) {
+                existing = {
+                    id: 'usr-' + Date.now(),
+                    name: name,
+                    email: email,
+                    role: 'PEMBELI',
+                    provider: 'Email'
+                };
+                users.push(existing);
+            }
+
+            currentUser = existing;
+            saveData();
+            closeModal('modal-auth');
+            alert(`Selamat Datang, ${currentUser.name}! Status Akun: ${currentUser.role}`);
+        }
+
+        function logoutUser() {
+            currentUser = null;
+            saveData();
+            switchTab('shop');
+        }
+
+        // TAB SWITCHING
+        function switchTab(tabName) {
+            document.getElementById('tab-shop').classList.add('hidden');
+            document.getElementById('tab-orders').classList.add('hidden');
+            document.getElementById('tab-admin').classList.add('hidden');
+
+            document.getElementById('nav-btn-shop').className = "px-5 py-2.5 rounded-xl font-bold text-xs uppercase tracking-wider text-gray-300 hover:text-white hover:bg-gray-800/60 transition-all";
+            document.getElementById('nav-btn-orders').className = "px-5 py-2.5 rounded-xl font-bold text-xs uppercase tracking-wider text-gray-300 hover:text-white hover:bg-gray-800/60 transition-all relative";
+
+            document.getElementById('mobile-nav-shop').className = "flex-1 py-1.5 text-gray-400 font-bold text-xs";
+            document.getElementById('mobile-nav-orders').className = "flex-1 py-1.5 text-gray-400 font-bold text-xs";
+
+            if (tabName === 'shop') {
+                document.getElementById('tab-shop').classList.remove('hidden');
+                document.getElementById('nav-btn-shop').className = "px-5 py-2.5 rounded-xl font-bold text-xs uppercase tracking-wider bg-gradient-to-r from-neonGold to-amber-500 text-black shadow-neon-gold";
+                document.getElementById('mobile-nav-shop').className = "flex-1 py-1.5 text-neonGold font-bold text-xs border-b-2 border-neonGold";
+                renderShopProducts();
+            } else if (tabName === 'orders') {
+                document.getElementById('tab-orders').classList.remove('hidden');
+                document.getElementById('nav-btn-orders').className = "px-5 py-2.5 rounded-xl font-bold text-xs uppercase tracking-wider bg-gradient-to-r from-neonGold to-amber-500 text-black shadow-neon-gold relative";
+                document.getElementById('mobile-nav-orders').className = "flex-1 py-1.5 text-neonGold font-bold text-xs border-b-2 border-neonGold";
+                renderUserOrdersList();
+            } else if (tabName === 'admin') {
+                if (!currentUser || currentUser.role === 'PEMBELI') {
+                    alert("Akses Terbatas! Anda memerlukan role Admin, Manajemen, atau Owner.");
+                    openAuthModal();
+                    return;
+                }
+                document.getElementById('tab-admin').classList.remove('hidden');
+                document.getElementById('admin-role-badge').innerText = `ROLE: ${currentUser.role}`;
+                renderAdminOrders();
+                renderAdminProducts();
+                renderAdminUsers();
+            }
+        }
+
+        function scrollToProducts() {
+            document.getElementById('product-section').scrollIntoView({ behavior: 'smooth' });
+        }
+
+        function filterCategory(cat) {
+            currentCategoryFilter = cat;
+            document.querySelectorAll('.cat-filter-btn').forEach(btn => {
+                btn.className = "cat-filter-btn whitespace-nowrap px-4 py-2.5 rounded-xl font-bold text-xs uppercase tracking-wider transition bg-cyberNav border border-gray-800 text-gray-400 hover:text-white hover:border-neonCyan flex-shrink-0";
+            });
+            event.currentTarget.className = "cat-filter-btn active whitespace-nowrap px-4 py-2.5 rounded-xl font-bold text-xs uppercase tracking-wider transition bg-gradient-to-r from-neonGold to-amber-500 text-black shadow-neon-gold flex-shrink-0";
+            renderShopProducts();
+        }
+
+        // RENDER SHOP PRODUCTS
+        function renderShopProducts() {
+            const grid = document.getElementById('shop-products-grid');
+            grid.innerHTML = '';
+
+            const searchQuery = document.getElementById('shop-search-input').value.toLowerCase().trim();
+
+            let filtered = products;
+            if (currentCategoryFilter !== 'ALL') {
+                filtered = products.filter(p => p.category === currentCategoryFilter);
+            }
+
+            if (searchQuery) {
+                filtered = filtered.filter(p => p.name.toLowerCase().includes(searchQuery));
+            }
+
+            if (filtered.length === 0) {
+                grid.innerHTML = `<div class="col-span-full text-center py-12 text-gray-500 font-semibold text-xs sm:text-sm">Tidak ada produk ditemukan.</div>`;
+                return;
+            }
+
+            filtered.forEach(p => {
+                let badgeClass = "bg-red-500/20 text-red-400 border-red-500/40";
+                let badgeText = "STOK 0";
+
+                if (p.status === "limited") {
+                    badgeClass = "bg-yellow-500/20 text-yellow-400 border-yellow-500/40";
+                    badgeText = "STOK TERBATAS";
+                } else if (p.status === "available") {
+                    badgeClass = "bg-neonGreen/20 text-neonGreen border-neonGreen/40";
+                    badgeText = "TERSEDIA";
+                }
+
+                grid.innerHTML += `
+                    <div class="glass-card rounded-2xl p-4 sm:p-5 flex flex-col justify-between relative overflow-hidden group">
+                        <div class="space-y-3">
+                            <div class="flex justify-between items-start gap-2">
+                                <span class="text-[10px] font-extrabold px-2.5 py-1 rounded-md bg-cyberNav text-neonCyan border border-neonCyan/30">
+                                    <i class="fa-solid ${p.icon} mr-1"></i> ${p.category}
+                                </span>
+                                <span class="text-[10px] font-extrabold px-2 py-0.5 rounded-full border ${badgeClass}">
+                                    ${badgeText}
+                                </span>
+                            </div>
+                            
+                            <div>
+                                <h3 class="font-display font-extrabold text-lg sm:text-xl text-white group-hover:text-neonGold transition">${p.name}</h3>
+                                <div class="text-neonCyan font-bold text-base sm:text-lg mt-0.5">${p.price}</div>
+                            </div>
+                        </div>
+
+                        <div class="pt-4 border-t border-gray-800/80 mt-4">
+                            <button onclick="openCheckoutModal(${p.id})" class="w-full bg-gradient-to-r from-neonCyan to-blue-600 hover:opacity-90 text-black font-extrabold py-2.5 rounded-xl text-xs uppercase tracking-wider transition shadow-neon-cyan flex items-center justify-center gap-1.5">
+                                <i class="fa-solid fa-cart-shopping"></i> Beli Sekarang
+                            </button>
+                        </div>
+                    </div>
+                `;
+            });
+        }
+
+        // CHECKOUT & ROBLOX AVATAR LOOKUP
+        function openCheckoutModal(productId) {
+            const product = products.find(p => p.id === productId);
+            if (!product) return;
+
+            document.getElementById('checkout-prod-id').value = product.id;
+            document.getElementById('checkout-cat-badge').innerText = product.category;
+            document.getElementById('checkout-product-title').innerText = product.name;
+            document.getElementById('checkout-product-price').innerText = product.price;
+
+            calculateSummaryFee();
+            document.getElementById('modal-checkout').classList.remove('hidden');
+        }
+
+        function debounceAvatarFetch() {
+            clearTimeout(avatarTimeout);
+            avatarTimeout = setTimeout(fetchRobloxAvatar, 800);
+        }
+
+        async function fetchRobloxAvatar() {
+            const username = document.getElementById('co-roblox-user').value.trim();
+            const card = document.getElementById('roblox-avatar-preview-card');
+            if (!username) {
+                card.classList.add('hidden');
+                return;
+            }
+
+            try {
+                const proxyUrl = `https://users.roblox.com/v1/usernames/users`;
+                const response = await fetch(proxyUrl, {
+                    method: 'POST',
+                    headers: { 'Content-Type': 'application/json' },
+                    body: JSON.stringify({ usernames: [username], excludeBannedUsers: true })
+                });
+
+                const data = await response.json();
+                if (data && data.data && data.data.length > 0) {
+                    const user = data.data[0];
+                    document.getElementById('roblox-display-name').innerText = user.displayName;
+                    document.getElementById('roblox-user-id').innerText = `ID: ${user.id}`;
+                    document.getElementById('roblox-avatar-img').src = `https://tr.rbxcdn.com/30edf925f4e3f46f332c1c6218e7e1f1/150/150/AvatarHeadshot/Png`;
+                    card.classList.remove('hidden');
+                } else {
+                    card.classList.add('hidden');
+                }
+            } catch (err) {
+                // Fallback UI
+                document.getElementById('roblox-display-name').innerText = username;
+                document.getElementById('roblox-user-id').innerText = `Verified Roblox Username`;
+                document.getElementById('roblox-avatar-img').src = `https://placehold.co/100x100/00f0ff/000000?text=${username.charAt(0).toUpperCase()}`;
+                card.classList.remove('hidden');
+            }
+        }
+
+        function calculateSummaryFee() {
+            const prodId = parseInt(document.getElementById('checkout-prod-id').value);
+            const product = products.find(p => p.id === prodId);
+            if (!product) return;
+
+            const basePrice = product.rawPrice || 100000;
+            const method = document.getElementById('co-payment-method').value;
+            let adminFee = method !== 'QRIS' ? 1000 : 0;
+
+            const total = basePrice + adminFee;
+
+            document.getElementById('summary-base-price').innerText = `Rp ${basePrice.toLocaleString('id-ID')}`;
+            document.getElementById('summary-admin-fee').innerText = `Rp ${adminFee.toLocaleString('id-ID')}`;
+            document.getElementById('summary-total-price').innerText = `Rp ${total.toLocaleString('id-ID')}`;
+        }
+
+        function processCheckoutSubmit(e) {
+            e.preventDefault();
+
+            const prodId = parseInt(document.getElementById('checkout-prod-id').value);
+            const product = products.find(p => p.id === prodId);
+
+            const robloxUser = document.getElementById('co-roblox-user').value.trim();
+            const waNumber = document.getElementById('co-wa-number').value.trim();
+            const paymentMethod = document.getElementById('co-payment-method').value;
+            const notes = document.getElementById('co-notes').value.trim();
+
+            const randomCode = '#LVX-' + Math.floor(100000 + Math.random() * 900000);
+
+            const newOrder = {
+                id: randomCode,
+                productId: product.id,
+                productName: product.name,
+                category: product.category,
+                price: product.price,
+                rawPrice: product.rawPrice,
+                robloxUser: robloxUser,
+                waNumber: waNumber,
+                paymentMethod: paymentMethod,
+                notes: notes,
+                status: 'PENDING',
+                rejectReason: '',
+                createdAt: new Date().toLocaleString('id-ID')
+            };
+
+            orders.unshift(newOrder);
+            saveData();
+
+            document.getElementById('succ-order-id').innerText = newOrder.id;
+            document.getElementById('succ-roblox-user').innerText = newOrder.robloxUser;
+            document.getElementById('succ-total-pay').innerText = document.getElementById('summary-total-price').innerText;
+
+            closeModal('modal-checkout');
+            document.getElementById('form-checkout').reset();
+            document.getElementById('roblox-avatar-preview-card').classList.add('hidden');
+            document.getElementById('modal-success').classList.remove('hidden');
+        }
+
+        function trackSuccessOrder() {
+            closeModal('modal-success');
+            switchTab('orders');
+            renderUserOrdersList();
+        }
+
+        // USER TRACK ORDERS
+        function renderUserOrdersList(searchQuery = '') {
+            const container = document.getElementById('user-orders-result');
+            container.innerHTML = '';
+
+            const q = (searchQuery || document.getElementById('user-search-query').value).toLowerCase().trim();
+            let filtered = orders;
+
+            if (q) {
+                filtered = orders.filter(o => 
+                    o.id.toLowerCase().includes(q) || 
+                    o.robloxUser.toLowerCase().includes(q)
+                );
+            }
+
+            if (filtered.length === 0) {
+                container.innerHTML = `<div class="text-center py-10 text-gray-500 font-semibold text-xs sm:text-sm">Tidak ada riwayat transaksi ditemukan.</div>`;
+                return;
+            }
+
+            filtered.forEach(o => {
+                let statusBadge = '';
+                let borderClass = 'border-gray-800';
+
+                if (o.status === 'PENDING') {
+                    statusBadge = `<span class="bg-yellow-500/20 text-yellow-400 border border-yellow-500/50 px-2.5 py-0.5 sm:px-3 sm:py-1 rounded-full text-[10px] sm:text-xs font-bold"><i class="fa-solid fa-hourglass-half mr-1"></i> Menunggu Konfirmasi</span>`;
+                } else if (o.status === 'ACC') {
+                    statusBadge = `<span class="bg-neonGreen/20 text-neonGreen border border-neonGreen/50 px-2.5 py-0.5 sm:px-3 sm:py-1 rounded-full text-[10px] sm:text-xs font-bold"><i class="fa-solid fa-circle-check mr-1"></i> Sukses / ACC</span>`;
+                    borderClass = 'border-neonGreen/40';
+                } else if (o.status === 'REJECTED') {
+                    statusBadge = `<span class="bg-neonPink/20 text-neonPink border border-neonPink/50 px-2.5 py-0.5 sm:px-3 sm:py-1 rounded-full text-[10px] sm:text-xs font-bold"><i class="fa-solid fa-circle-xmark mr-1"></i> Ditolak</span>`;
+                    borderClass = 'border-neonPink/50';
+                }
+
+                container.innerHTML += `
+                    <div class="bg-cyberBg border ${borderClass} rounded-2xl p-4 sm:p-5 space-y-3">
+                        <div class="flex flex-wrap justify-between items-center gap-2 border-b border-gray-800 pb-3">
+                            <div>
+                                <span class="font-display font-bold text-neonCyan text-sm sm:text-base">${o.id}</span>
+                                <span class="text-[10px] sm:text-xs text-gray-400 block">${o.createdAt}</span>
+                            </div>
+                            <div>${statusBadge}</div>
+                        </div>
+
+                        <div class="grid grid-cols-2 sm:grid-cols-4 gap-2.5 text-xs">
+                            <div><span class="text-gray-400 block text-[10px]">Produk:</span><span class="font-bold text-white">${o.productName}</span></div>
+                            <div><span class="text-gray-400 block text-[10px]">Harga:</span><span class="font-bold text-neonCyan">${o.price}</span></div>
+                            <div><span class="text-gray-400 block text-[10px]">User Roblox:</span><span class="font-bold text-neonGold">${o.robloxUser}</span></div>
+                            <div><span class="text-gray-400 block text-[10px]">Metode Bayar:</span><span class="font-bold text-white">${o.paymentMethod}</span></div>
+                        </div>
+
+                        ${o.status === 'REJECTED' ? `
+                            <div class="bg-neonPink/10 border border-neonPink/40 rounded-xl p-3 text-xs">
+                                <div class="font-extrabold text-neonPink flex items-center gap-1.5 mb-0.5">
+                                    <i class="fa-solid fa-circle-exclamation"></i> Alasan Penolakan dari Admin:
+                                </div>
+                                <div class="text-gray-200 italic font-medium">"${o.rejectReason || 'Alasan tidak disebutkan.'}"</div>
+                            </div>
+                        ` : ''}
+                    </div>
+                `;
+            });
+        }
+
+        function searchUserOrders() {
+            renderUserOrdersList();
+        }
+
+        // ADMIN DASHBOARD & ROLE CONTROL
+        function switchAdminSubTab(sub) {
+            document.getElementById('admin-sub-orders').classList.add('hidden');
+            document.getElementById('admin-sub-products').classList.add('hidden');
+            document.getElementById('admin-sub-users').classList.add('hidden');
+
+            document.getElementById('admin-sub-orders-btn').className = "pb-3 text-gray-400 border-b-2 border-transparent hover:text-white flex items-center gap-2 whitespace-nowrap";
+            document.getElementById('admin-sub-products-btn').className = "pb-3 text-gray-400 border-b-2 border-transparent hover:text-white flex items-center gap-2 whitespace-nowrap";
+            document.getElementById('admin-sub-users-btn').className = "pb-3 text-gray-400 border-b-2 border-transparent hover:text-white flex items-center gap-2 whitespace-nowrap";
+
+            if (sub === 'orders') {
+                document.getElementById('admin-sub-orders').classList.remove('hidden');
+                document.getElementById('admin-sub-orders-btn').className = "pb-3 text-neonCyan border-b-2 border-neonCyan flex items-center gap-2 whitespace-nowrap";
+            } else if (sub === 'products') {
+                document.getElementById('admin-sub-products').classList.remove('hidden');
+                document.getElementById('admin-sub-products-btn').className = "pb-3 text-neonCyan border-b-2 border-neonCyan flex items-center gap-2 whitespace-nowrap";
+            } else if (sub === 'users') {
+                document.getElementById('admin-sub-users').classList.remove('hidden');
+                document.getElementById('admin-sub-users-btn').className = "pb-3 text-neonCyan border-b-2 border-neonCyan flex items-center gap-2 whitespace-nowrap";
+            }
+        }
+
+        function renderAdminOrders() {
+            const container = document.getElementById('admin-orders-list');
+            container.innerHTML = '';
+
+            if (orders.length === 0) {
+                container.innerHTML = `<div class="text-center py-10 text-gray-500 font-semibold text-xs sm:text-sm">Belum ada pesanan masuk.</div>`;
+                return;
+            }
+
+            orders.forEach(o => {
+                let badge = '';
+                if (o.status === 'PENDING') badge = `<span class="bg-yellow-500/20 text-yellow-400 border border-yellow-500/40 text-[10px] font-extrabold px-2.5 py-0.5 rounded-full">PENDING</span>`;
+                else if (o.status === 'ACC') badge = `<span class="bg-neonGreen/20 text-neonGreen border border-neonGreen/40 text-[10px] font-extrabold px-2.5 py-0.5 rounded-full">ACC / SUKSES</span>`;
+                else if (o.status === 'REJECTED') badge = `<span class="bg-neonPink/20 text-neonPink border border-neonPink/40 text-[10px] font-extrabold px-2.5 py-0.5 rounded-full">DITOLAK</span>`;
+
+                container.innerHTML += `
+                    <div class="glass-panel rounded-2xl p-4 sm:p-5 flex flex-col md:flex-row justify-between items-start md:items-center gap-4">
+                        <div class="space-y-2 flex-1 text-xs w-full">
+                            <div class="flex flex-wrap items-center gap-2">
+                                <span class="font-display font-bold text-neonCyan text-sm">${o.id}</span>
+                                ${badge}
+                                <span class="text-gray-400 text-[10px]">${o.createdAt}</span>
+                            </div>
+
+                            <div class="grid grid-cols-2 sm:grid-cols-4 gap-2 pt-1">
+                                <div><span class="text-gray-400 text-[10px]">Produk:</span> <strong class="text-white block">${o.productName}</strong></div>
+                                <div><span class="text-gray-400 text-[10px]">Harga:</span> <strong class="text-neonCyan block">${o.price}</strong></div>
+                                <div><span class="text-gray-400 text-[10px]">Roblox User:</span> <strong class="text-neonGold block">${o.robloxUser}</strong></div>
+                                <div><span class="text-gray-400 text-[10px]">WhatsApp:</span> <strong class="text-neonGreen block">${o.waNumber}</strong></div>
+                            </div>
+
+                            ${o.status === 'REJECTED' ? `<div class="text-neonPink italic">Alasan Penolakan: "${o.rejectReason}"</div>` : ''}
+                        </div>
+
+                        <div class="flex gap-2 w-full md:w-auto">
+                            ${o.status === 'PENDING' ? `
+                                <button onclick="accAdminOrder('${o.id}')" class="flex-1 md:flex-none bg-neonGreen hover:bg-emerald-400 text-black font-extrabold px-4 py-2 rounded-xl text-xs shadow-neon-cyan">
+                                    <i class="fa-solid fa-check mr-1"></i> ACC
+                                </button>
+                                <button onclick="openRejectReasonModal('${o.id}')" class="flex-1 md:flex-none bg-neonPink hover:bg-pink-600 text-white font-extrabold px-4 py-2 rounded-xl text-xs shadow-neon-pink">
+                                    <i class="fa-solid fa-xmark mr-1"></i> Tolak
+                                </button>
+                            ` : `<span class="text-gray-500 font-bold text-xs italic">Selesai</span>`}
+                        </div>
+                    </div>
+                `;
+            });
+        }
+
+        function accAdminOrder(id) {
+            const o = orders.find(item => item.id === id);
+            if (o && confirm(`ACC Pesanan ${id}?`)) {
+                o.status = 'ACC';
+                saveData();
+                renderAdminOrders();
+            }
+        }
+
+        function openRejectReasonModal(id) {
+            document.getElementById('reject-order-id-target').value = id;
+            document.getElementById('quick-reason-select').value = '';
+            document.getElementById('custom-reject-reason').value = '';
+            document.getElementById('modal-reject-reason').classList.remove('hidden');
+        }
+
+        function applyQuickReason(val) {
+            if (val) document.getElementById('custom-reject-reason').value = val;
+        }
+
+        function confirmAdminReject() {
+            const id = document.getElementById('reject-order-id-target').value;
+            const reason = document.getElementById('custom-reject-reason').value.trim();
+            if (!reason) {
+                alert("Isi alasan penolakan!");
+                return;
+            }
+
+            const o = orders.find(item => item.id === id);
+            if (o) {
+                o.status = 'REJECTED';
+                o.rejectReason = reason;
+                saveData();
+                closeModal('modal-reject-reason');
+                renderAdminOrders();
+            }
+        }
+
+        function renderAdminProducts() {
+            const container = document.getElementById('admin-products-grid');
+            container.innerHTML = '';
+
+            products.forEach(p => {
+                container.innerHTML += `
+                    <div class="bg-cyberBg border border-gray-800 rounded-2xl p-4 space-y-3">
+                        <div class="flex justify-between items-center text-xs">
+                            <span class="font-bold text-neonCyan">${p.category}</span>
+                            <button onclick="deleteProduct(${p.id})" class="text-red-400 text-xs"><i class="fa-solid fa-trash"></i> Hapus</button>
+                        </div>
+                        <input type="text" id="edit-prod-name-${p.id}" value="${p.name}" class="w-full bg-cardBg border border-gray-700 rounded-lg px-3 py-1.5 text-xs text-white font-bold">
+                        
+                        <div class="grid grid-cols-2 gap-2">
+                            <div>
+                                <label class="text-[10px] text-gray-400 block">Harga:</label>
+                                <input type="text" id="edit-prod-price-${p.id}" value="${p.price}" class="w-full bg-cardBg border border-gray-700 rounded-lg px-2.5 py-1 text-xs text-neonCyan">
+                            </div>
+                            <div>
+                                <label class="text-[10px] text-gray-400 block">Stok:</label>
+                                <select id="edit-prod-status-${p.id}" class="w-full bg-cardBg border border-gray-700 rounded-lg px-2 py-1 text-xs text-white">
+                                    <option value="zero" ${p.status === 'zero' ? 'selected' : ''}>STOK 0</option>
+                                    <option value="limited" ${p.status === 'limited' ? 'selected' : ''}>TERBATAS</option>
+                                    <option value="available" ${p.status === 'available' ? 'selected' : ''}>TERSEDIA</option>
+                                </select>
+                            </div>
+                        </div>
+
+                        <button onclick="saveSingleProductUpdate(${p.id})" class="w-full bg-gray-800 text-neonCyan font-bold py-1.5 rounded-lg text-xs">
+                            Simpan Perubahan
+                        </button>
+                    </div>
+                `;
+            });
+        }
+
+        function saveSingleProductUpdate(id) {
+            const p = products.find(item => item.id === id);
+            if (p) {
+                p.name = document.getElementById(`edit-prod-name-${id}`).value;
+                p.price = document.getElementById(`edit-prod-price-${id}`).value;
+                p.status = document.getElementById(`edit-prod-status-${id}`).value;
+                p.rawPrice = parseInt(p.price.replace(/[^0-9]/g, '')) || p.rawPrice;
+                saveData();
+                renderShopProducts();
+                alert("Produk diperbarui!");
+            }
+        }
+
+        function deleteProduct(id) {
+            if (confirm("Hapus produk ini?")) {
+                products = products.filter(p => p.id !== id);
+                saveData();
+                renderAdminProducts();
+                renderShopProducts();
+            }
+        }
+
+        function openAddProductModal() {
+            document.getElementById('modal-add-product').classList.remove('hidden');
+        }
+
+        function saveNewProductFromModal(e) {
+            e.preventDefault();
+            const cat = document.getElementById('new-prod-cat').value;
+            const name = document.getElementById('new-prod-name').value;
+            const price = document.getElementById('new-prod-price').value;
+            const status = document.getElementById('new-prod-status').value;
+
+            products.push({
+                id: Date.now(),
+                category: cat,
+                icon: cat === 'ROBUX VIA USERNAME' ? 'fa-bolt' : (cat === 'ROBUX VIA LOGIN' ? 'fa-lock' : 'fa-crown'),
+                name: name,
+                price: price,
+                rawPrice: parseInt(price.replace(/[^0-9]/g, '')) || 100000,
+                status: status
+            });
+
+            saveData();
+            closeModal('modal-add-product');
+            renderAdminProducts();
+            renderShopProducts();
+        }
+
+        function renderAdminUsers() {
+            const tbody = document.getElementById('admin-users-table-body');
+            tbody.innerHTML = '';
+
+            users.forEach(u => {
+                tbody.innerHTML += `
+                    <tr>
+                        <td class="p-3 font-bold text-white">${u.name}</td>
+                        <td class="p-3 text-gray-400">${u.email}</td>
+                        <td class="p-3"><span class="bg-gray-800 text-gray-300 px-2 py-0.5 rounded text-[10px]">${u.provider}</span></td>
+                        <td class="p-3">
+                            <span class="font-extrabold text-[10px] px-2.5 py-1 rounded-full border ${u.role === 'OWNER' ? 'bg-neonGold/20 text-neonGold border-neonGold/40' : (u.role === 'MANAJEMEN' ? 'bg-neonPurple/20 text-neonPurple border-neonPurple/40' : (u.role === 'ADMIN' ? 'bg-neonCyan/20 text-neonCyan border-neonCyan/40' : 'bg-gray-800 text-gray-300 border-gray-700'))}">
+                                ${u.role}
+                            </span>
+                        </td>
+                        <td class="p-3">
+                            <select onchange="updateUserRole('${u.id}', this.value)" class="bg-cyberBg border border-gray-700 text-xs text-white rounded px-2 py-1">
+                                <option value="PEMBELI" ${u.role === 'PEMBELI' ? 'selected' : ''}>PEMBELI</option>
+                                <option value="ADMIN" ${u.role === 'ADMIN' ? 'selected' : ''}>ADMIN</option>
+                                <option value="MANAJEMEN" ${u.role === 'MANAJEMEN' ? 'selected' : ''}>MANAJEMEN</option>
+                                <option value="OWNER" ${u.role === 'OWNER' ? 'selected' : ''}>OWNER</option>
+                            </select>
+                        </td>
+                    </tr>
+                `;
+            });
+        }
+
+        function updateUserRole(userId, newRole) {
+            const user = users.find(u => u.id === userId);
+            if (user) {
+                user.role = newRole;
+                saveData();
+                renderAdminUsers();
+                alert(`Role ${user.name} diperbarui menjadi ${newRole}`);
+            }
+        }
+
+        function updateBadgesAndStats() {
+            const pendingCount = orders.filter(o => o.status === 'PENDING').length;
+            const accOrders = orders.filter(o => o.status === 'ACC');
+            const rejectedCount = orders.filter(o => o.status === 'REJECTED').length;
+
+            let totalRev = 0;
+            accOrders.forEach(o => totalRev += (o.rawPrice || 0));
+
+            document.getElementById('stat-revenue').innerText = `Rp ${totalRev.toLocaleString('id-ID')}`;
+            document.getElementById('stat-pending').innerText = pendingCount;
+            document.getElementById('stat-acc').innerText = accOrders.length;
+            document.getElementById('stat-rejected').innerText = rejectedCount;
+
+            document.getElementById('admin-pending-count-badge').innerText = pendingCount;
+            const userBadge = document.getElementById('user-order-badge');
+            if (orders.length > 0) {
+                userBadge.innerText = orders.length;
+                userBadge.classList.remove('hidden');
+            } else {
+                userBadge.classList.add('hidden');
+            }
+        }
+
+        function closeModal(id) {
+            document.getElementById(id).classList.add('hidden');
+        }
+
+        window.onload = function() {
+            renderHeaderAuth();
+            renderShopProducts();
+            updateBadgesAndStats();
+        };
+    </script>
+</body>
+</html>
